@@ -15,5 +15,5 @@ function bill
   set_color red
   echo "Updating dotfiles"
   set_color normal
-  cd (dirname (readlink .spacemacs)); and git pull ; and cd -
+  cd (dirname (readlink ~/.spacemacs)); and git pull ; and cd -
 end
