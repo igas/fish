@@ -8,7 +8,7 @@ set -gx GOPATH ~/.go
 
 set -gx ARCHFLAGS -arch x86_64
 set -gx MANWIDTH 80
-set -gx EDITOR nvim
+set -gx EDITOR (command -s emacs)
 set -gx LC_ALL en_US.UTF-8
 set -gx RUBY_GC_HEAP_FREE_SLOTS 600000
 set -gx RUBY_GC_HEAP_GROWTH_FACTOR 1.25
