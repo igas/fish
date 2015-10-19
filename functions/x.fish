@@ -1,3 +1,3 @@
-function e
+function x
   exit $argv
 end
